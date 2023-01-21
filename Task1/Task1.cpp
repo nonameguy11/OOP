@@ -10,10 +10,9 @@ int main()
     int s = 0;
     int f = 0;
     int g = 0;
-    double matC_kvadrat[100][100];
-
     int n, m;
     cin >> n >> m;
+    double matC_kvadrat[n][m];
     cout << endl;
 
 
