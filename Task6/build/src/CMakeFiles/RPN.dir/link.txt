@@ -1,2 +1,0 @@
-/usr/bin/ar qc libRPN.a CMakeFiles/RPN.dir/RPN.cpp.o
-/usr/bin/ranlib libRPN.a
