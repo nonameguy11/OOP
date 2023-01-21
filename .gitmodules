@@ -1,0 +1,3 @@
+[submodule "Task3/googletest"]
+	path = Task3/googletest
+	url = https://github.com/google/googletest
