@@ -47,6 +47,14 @@ std::string spaceDel(std::string s)
 	return temp;
 }
 
+std::string hashtagGenerator(std::string s)
+{
+	s = toUpper(s);
+	s = spaceDel(s);
+	s = '#' + s;
+	return s;
+}
+
 void output(std::string s)
 {
 	try
