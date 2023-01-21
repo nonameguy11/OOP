@@ -8,5 +8,5 @@
 	path = Task6/googletest
 	url = https://github.com/google/googletest
 [submodule "googletest"]
-	path = Task2/googletest
+	path = Task6/googletest
 	url = https://github.com/google/googletest
