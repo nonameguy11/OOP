@@ -9,14 +9,7 @@
     Element* head;
     Element* tmp;
 
-    List::List()
-    {
-
-        head = NULL;
-        tmp = head;
-    };
-
-    void List::init(int length)
+    List::List(int length)
     {
         head = new Element;
         tmp = head;
@@ -43,10 +36,10 @@
             }
             current = current->next;
         } while (current != head);
-        std::cout << std::endl;
-    }
+        os << std::endl;
+    };
 
-    void List::add(char x)
+    void List::add(int x)
     {
         tmp->data = x;
         tmp = tmp->next;

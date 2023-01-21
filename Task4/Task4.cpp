@@ -7,12 +7,11 @@ using namespace std;
 
 int main()
 {
-    List testing;
+    List testing(5);
     int n = 5;
-    testing.init(n);
     for (int i = 1; i < 8; i++) 
     {
-        testing.add((char)i);
+        testing.add(i);
         testing.print(std::cout);
     }
     return 0;

@@ -4,12 +4,10 @@
 class List final 
 {
 public:
-	List();
-
-	void init(int length);
+	List(int length);
 
 	void print(std::ostream& os);
 
-	void add(char x);
+	void add(int x);
 };
 
